@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ArrowRight, Download } from 'lucide-react';
+import { CodeXml, Download } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import hero from '../../assets/images/pas-foto.png';
 
@@ -35,11 +35,11 @@ export function Hero() {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="#contact"
+                href="#projects"
                 className="inline-flex items-center justify-center px-8 py-3.5 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/20 group"
               >
-                {t.hero.contactMe}
-                <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                {t.hero.project}
+                <CodeXml className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
               <a 
                 href="#experience"

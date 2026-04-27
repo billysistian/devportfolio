@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
             <a href="#" className="text-2xl font-bold font-['Poppins'] text-white tracking-tighter mb-4 inline-block">
-              Dev<span className="text-blue-500">Portfolio</span>.
+              My<span className="text-blue-500">Portfolio</span>.
             </a>
             <p className="max-w-xs text-sm leading-relaxed">
               {t.footer.description}
@@ -32,19 +32,14 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li><a href="https://www.linkedin.com/in/billy-sistian-putra/" className="hover:text-white transition-colors">LinkedIn</a></li>
               <li><a href="https://github.com/billysistian" className="hover:text-white transition-colors">GitHub</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Twitter</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Facebook</a></li>
               <li><a href="https://instagram.com/billysistian" className="hover:text-white transition-colors">Instagram</a></li>
             </ul>
           </div>
         </div>
         
-        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-          <p>&copy; {new Date().getFullYear()} DevPortfolio. {t.footer.copyright}</p>
-          <div className="flex items-center gap-2 mt-4 md:mt-0">
-            <span>{t.footer.madeWith}</span>
-            <Heart size={16} className="text-red-500 fill-red-500" />
-            <span>{t.footer.usingTech}</span>
-          </div>
+        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-center items-center text-sm">
+          <p>&copy; {new Date().getFullYear()} MyPortfolio. {t.footer.copyright}</p>
         </div>
       </div>
     </footer>

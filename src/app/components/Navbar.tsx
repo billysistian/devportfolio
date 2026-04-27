@@ -34,7 +34,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="text-2xl font-bold font-['Poppins'] text-slate-800 tracking-tighter">
-              Dev<span className="text-blue-600">Portfolio</span>.
+              My<span className="text-blue-600">Portfolio</span>.
             </a>
           </div>
           

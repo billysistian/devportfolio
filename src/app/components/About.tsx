@@ -47,10 +47,7 @@ export function About() {
               {t.about.title}
             </h2>
             <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-              {t.about.description1}
-            </p>
-            <p className="mt-4 text-lg text-slate-600 leading-relaxed">
-              {t.about.description2}
+              {t.about.description}
             </p>
 
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">

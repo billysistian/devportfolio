@@ -7,6 +7,8 @@ import cmsImg from "@/assets/images/cms.png";
 import erpImg from "@/assets/images/erp.png";
 import { useLanguage } from "../hooks/useLanguage";
 import { useState } from "react";
+import { TechBadge } from "./TechBadge";
+import { techIcons } from "./techIcons";
 
 export function Projects() {
   const { t } = useLanguage();
@@ -20,13 +22,13 @@ export function Projects() {
       github: null,
     },
     {
-      image: companyImg,
-      demo: "https://gomega.co.id",
+      image: payrollImg,
+      demo: "https://payroll.gomega.co.id",
       github: null,
     },
     {
-      image: payrollImg,
-      demo: "https://payroll.gomega.co.id",
+      image: companyImg,
+      demo: "https://gomega.co.id",
       github: null,
     },
     {
@@ -113,7 +115,7 @@ export function Projects() {
                 </div>
               </div>
 
-              <div className="p-8">
+              <div className="p-6 sm:md-4 md:p-8">
                 <div className="flex justify-between items-start mb-4">
                   <div>
                     <h3 className="text-xl font-bold text-slate-900 mb-2">
@@ -129,14 +131,13 @@ export function Projects() {
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 sm:gap-3 md:gap-4">
                   {project.tech.map((tech: string) => (
-                    <span
+                    <TechBadge
                       key={tech}
-                      className="px-3 py-1 bg-white border border-slate-200 text-slate-600 text-xs font-medium rounded-full"
-                    >
-                      {tech}
-                    </span>
+                      name={tech}
+                      icon={techIcons[tech] || null}
+                    />
                   ))}
                 </div>
               </div>
