@@ -49,20 +49,21 @@ export function Skills() {
           </p>
         </div>
 
-        <div className="flex sm:flex-wrap justify-start sm:justify-center gap-3 mb-12 overflow-x-auto pb-2 sm:pb-0 scrollbar-hide -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div className="flex sm:flex-wrap justify-start sm:justify-center gap-2 sm:gap-3 mb-12 overflow-x-auto pb-2 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
           {skillCategories.map((category) => {
             const Icon = category.icon;
             return (
               <button
                 key={category.key}
                 onClick={() => setActiveCategory(category.key)}
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-full font-medium transition-all duration-300 whitespace-nowrap flex-shrink-0 ${
+                className={`flex items-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full text-sm sm:text-base font-medium transition-all duration-300 whitespace-nowrap flex-shrink-0 ${
                   activeCategory === category.key
                     ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/20'
                     : 'bg-white text-slate-600 border border-slate-200 hover:border-blue-300 hover:text-blue-600'
                 }`}
               >
-                <Icon size={18} />
+                <Icon size={16} className="hidden sm:block" />
+                <Icon size={14} className="block sm:hidden" />
                 <span>{category.category}</span>
               </button>
             );
@@ -77,7 +78,7 @@ export function Skills() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.3 }}
-              className="flex flex-wrap gap-3 sm:gap-4 md:gap-5 justify-center"
+              className="flex flex-wrap gap-2 sm:gap-3 md:gap-4 justify-center"
             >
               {activeCategoryData.items.map((skill: string) => (
                 <TechBadge
