@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "motion/react";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, Eye} from "lucide-react";
+import managementPatientImg from "@/assets/images/sistem-antrian-rs.png";
 import presensiImg from "@/assets/images/presensi-app.png";
 import companyImg from "@/assets/images/company-profile-gac.png";
 import payrollImg from "@/assets/images/admin-payroll.png";
@@ -17,28 +18,39 @@ export function Projects() {
 
   const projectExtras = [
     {
+      image: managementPatientImg,
+      demo: null,
+      views: managementPatientImg,
+      github: null,
+    },
+    {
       image: presensiImg,
       demo: "/case-study-presensi-app.pdf",
+      views: presensiImg,
       github: null,
     },
     {
       image: payrollImg,
       demo: "https://payroll.gomega.co.id",
+      views: null,
       github: null,
     },
     {
       image: companyImg,
       demo: "https://gomega.co.id",
+      views: null,
       github: null,
     },
     {
       image: cmsImg,
       demo: "https://gomega.co.id/login",
+      views: null,
       github: null,
     },
     {
       image: erpImg,
       demo: "https://gomega.gomega.co.id",
+      views: null,
       github: null,
     },
   ];
@@ -47,6 +59,7 @@ export function Projects() {
     ...proj,
     image: projectExtras[idx]?.image,
     demo: projectExtras[idx]?.demo,
+    views: projectExtras[idx]?.views,
     github: projectExtras[idx]?.github,
   }));
 
@@ -99,6 +112,17 @@ export function Projects() {
                       title="Live Demo"
                     >
                       <ExternalLink size={20} />
+                    </a>
+                  )}
+                  {project.views && (
+                    <a
+                      href={project.views}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 bg-white text-slate-900 rounded-full hover:bg-blue-600 hover:text-white transition-colors"
+                      title="View Views"
+                    >
+                      <Eye size={20} />
                     </a>
                   )}
                   {project.github && (

@@ -89,6 +89,12 @@ export const id = {
     loadMore: 'Muat Lebih Banyak Proyek',
     projects: [
       {
+        title: 'Sistem Manajemen Pasien',
+        description: 'Sistem manajemen pasien komprehensif untuk rumah sakit yang mencakup fitur seperti penjadwalan janji, manajemen catatan pasien, dan manajemen antrian.',
+        role: 'Pengembang Fullstack',
+        tech: ['Laravel', 'MySQL', 'JavaScript', 'VS Code', 'Tailwind CSS'],
+      },
+      {
         title: 'PresensiGo',
         description: 'Aplikasi mobile untuk tim sales yang memungkinkan mereka mencatat kehadiran, kunjungan pelanggan, dan aktivitas harian dengan fitur berbasis lokasi dan pelaporan waktu nyata.',
         role: 'Pengembang Mobile & Backend',

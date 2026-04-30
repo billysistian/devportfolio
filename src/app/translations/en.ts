@@ -91,6 +91,12 @@ export const en = {
     loadMore: 'Load More Projects',
     projects: [
       {
+        title: 'Management Patient System',
+        description: 'A comprehensive patient management system for hospitals that includes features such as appointment scheduling, patient records management, and queue management.',
+        role: 'Fullstack Developer',
+        tech: ['Laravel', 'MySQL', 'JavaScript', 'VS Code', 'Tailwind CSS'],
+      },
+      {
         title: 'PresensiGo',
         description: 'A mobile application for sales teams that allows them to log attendance, customer visits, and daily activities with location-based features and real-time reporting.',
         role: 'Mobile & Backend Developer',
