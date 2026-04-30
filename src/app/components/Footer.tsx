@@ -1,4 +1,3 @@
-import { Heart } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 
 export function Footer() {
@@ -9,7 +8,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
-            <a href="#" className="text-2xl font-bold font-['Poppins'] text-white tracking-tighter mb-4 inline-block">
+            <a href="/" className="text-2xl font-bold font-['Poppins'] text-white tracking-tighter mb-4 inline-block">
               My<span className="text-blue-500">Portfolio</span>.
             </a>
             <p className="max-w-xs text-sm leading-relaxed">

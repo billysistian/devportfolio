@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { ExternalLink, Github, Eye} from "lucide-react";
 import managementPatientImg from "@/assets/images/sistem-antrian-rs.png";
 import presensiImg from "@/assets/images/presensi-app.png";
-import companyImg from "@/assets/images/company-profile-gac.png";
+import companyImg from "@/assets/images/company-profile-gomega.png";
 import payrollImg from "@/assets/images/admin-payroll.png";
 import cmsImg from "@/assets/images/cms.png";
 import erpImg from "@/assets/images/erp.png";
@@ -32,25 +32,25 @@ export function Projects() {
     {
       image: payrollImg,
       demo: "https://payroll.gomega.co.id",
-      views: null,
+      views: payrollImg,
       github: null,
     },
     {
       image: companyImg,
       demo: "https://gomega.co.id",
-      views: null,
+      views: companyImg,
       github: null,
     },
     {
       image: cmsImg,
       demo: "https://gomega.co.id/login",
-      views: null,
+      views: cmsImg,
       github: null,
     },
     {
       image: erpImg,
       demo: "https://gomega.gomega.co.id",
-      views: null,
+      views: erpImg,
       github: null,
     },
   ];

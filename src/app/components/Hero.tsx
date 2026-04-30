@@ -42,7 +42,8 @@ export function Hero() {
                 <CodeXml className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
               <a 
-                href="#experience"
+                href="/CV.pdf"
+                download
                 className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-slate-700 border border-slate-200 rounded-lg font-medium hover:bg-slate-50 hover:border-slate-300 transition-all shadow-sm"
               >
                 <Download className="mr-2 w-4 h-4" />
