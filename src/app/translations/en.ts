@@ -99,7 +99,7 @@ export const en = {
       {
         title: 'PresensiGo',
         description: 'A mobile application for sales teams that allows them to log attendance, customer visits, and daily activities with location-based features and real-time reporting.',
-        role: 'Mobile & Backend Developer',
+        role: 'Mobile Developer',
         tech: ['Laravel', 'MySQL', 'VS Code', 'Postman', 'Flutter'],
       },
       {
@@ -159,7 +159,7 @@ export const en = {
     degreeDescription: 'Developed strong analytical and problem-solving skills through coursework in Software Engineering, Data Structures, and Algorithms.',
     certList: [
       {
-        name: 'Kelas Fullstack Web Developer',
+        name: 'KelasFullstack',
         issuer: 'Codepolitan',
         date: '2024',
       },

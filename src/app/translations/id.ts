@@ -97,7 +97,7 @@ export const id = {
       {
         title: 'PresensiGo',
         description: 'Aplikasi mobile untuk tim sales yang memungkinkan mereka mencatat kehadiran, kunjungan pelanggan, dan aktivitas harian dengan fitur berbasis lokasi dan pelaporan waktu nyata.',
-        role: 'Pengembang Mobile & Backend',
+        role: 'Pengembang Mobile',
         tech: ['Laravel', 'MySQL', 'VS Code', 'Postman', 'Flutter'],
       },
       {
@@ -157,7 +157,7 @@ export const id = {
     degreeDescription: 'Mengembangkan keterampilan analitik dan pemecahan masalah yang kuat melalui kursus Rekayasa Perangkat Lunak, Struktur Data, dan Algoritma.',
     certList: [
       {
-        name: 'Kelas Fullstack Web Developer',
+        name: 'KelasFullstack',
         issuer: 'Codepolitan',
         date: '2024',
       },

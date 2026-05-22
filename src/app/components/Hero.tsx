@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { CodeXml, Download } from 'lucide-react';
 import { useLanguage } from '../hooks/useLanguage';
 import hero from '../../assets/images/pas-foto.png';
+import { TypingText } from './TypingText';
 
 export function Hero() {
   const { t } = useLanguage();
@@ -24,7 +25,7 @@ export function Hero() {
             </span>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 font-['Poppins'] leading-tight mb-6">
               {t.hero.greeting} <br />
-              <span className="text-blue-600">{t.hero.name}</span>
+              <TypingText text={t.hero.name} />
             </h1>
             <h2 className="text-2xl md:text-3xl text-slate-600 mb-6 font-medium">
               {t.hero.title}
