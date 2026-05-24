@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Github, Linkedin, Mail, Globe } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
+import { AnimatePresence } from 'motion/react';
 import { useLanguage } from '../hooks/useLanguage';
 
 export function Navbar() {
@@ -121,10 +121,7 @@ export function Navbar() {
       {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
+          <div
             className="md:hidden bg-white border-b border-slate-200 overflow-hidden"
           >
             <div className="px-4 pt-2 pb-6 space-y-2">
@@ -139,12 +136,12 @@ export function Navbar() {
                 </a>
               ))}
               <div className="pt-4 flex space-x-4 px-3">
-                <a href="#" className="text-slate-500 hover:text-blue-600"><Github size={20} /></a>
-                <a href="#" className="text-slate-500 hover:text-blue-600"><Linkedin size={20} /></a>
-                <a href="#" className="text-slate-500 hover:text-blue-600"><Mail size={20} /></a>
+                <a href="https://github.com/billysistian" className="text-slate-500 hover:text-blue-600"><Github size={20} /></a>
+                <a href="https://www.linkedin.com/in/billy-sistian-putra/" className="text-slate-500 hover:text-blue-600"><Linkedin size={20} /></a>
+                <a href="mailto:billy.sistianputra@gmail.com" className="text-slate-500 hover:text-blue-600"><Mail size={20} /></a>
               </div>
             </div>
-          </motion.div>
+          </div>
         )}
       </AnimatePresence>
     </nav>
