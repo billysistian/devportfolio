@@ -136,7 +136,7 @@ export const id = {
         company: 'PT. Gomega Asia Cemerlang',
         position: 'Fullstack Web Developer',
         period: '2022 - Sekarang',
-        description: 'Mengembangkan dan memelihara aplikasi web perusahaan menggunakan Laravel, React, dan RESTful APIs. Memimpin pengembangan sistem manajemen penggajian, sistem pelacakan kehadiran (berbasis GPS), dan solusi ERP internal untuk menyederhanakan operasional bisnis. Merancang sistem autentikasi yang aman menggunakan Laravel Sanctum dan kontrol akses berbasis peran. Membangun antarmuka frontend responsif dan dinamis dengan React, mengintegrasikan layanan API, dan mengoptimalkan performa untuk skalabilitas. Mengelola basis data MySQL, menulis kueri efisien, dan menerapkan peningkatan sistem untuk meningkatkan keamanan, keandalan, dan pengalaman pengguna.',
+        description: 'Membangun dan memelihara aplikasi web perusahaan menggunakan Laravel, React, dan RESTful APIs. Membangun sistem manajemen penggajian, sistem pelacakan kehadiran (berbasis GPS), dan solusi ERP internal untuk menyederhanakan operasional bisnis. Merancang sistem autentikasi yang aman menggunakan Laravel Sanctum dan kontrol akses berbasis peran. Membangun antarmuka frontend responsif dan dinamis dengan React, mengintegrasikan layanan API, dan mengoptimalkan performa untuk skalabilitas. Mengelola basis data SQL, menulis kueri efisien, dan menerapkan peningkatan sistem untuk meningkatkan keamanan, keandalan, dan pengalaman pengguna.',
       },
       {
         company: 'Freelance',

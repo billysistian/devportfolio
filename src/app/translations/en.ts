@@ -138,7 +138,7 @@ export const en = {
         company: 'PT. Gomega Asia Cemerlang',
         position: 'Fullstack Web Developer',
         period: '2022 - Present',
-        description: 'Developing and maintaining enterprise web applications using Laravel, React, and RESTful APIs. Leading the development of payroll management systems, attendance (GPS-based) tracking systems, and internal ERP solutions to streamline business operations. Designing secure authentication systems using Laravel Sanctum and role-based access control. Building responsive and dynamic front-end interfaces with React, integrating API services, and optimizing performance for scalability. Managing MySQL databases, writing efficient queries, and implementing system improvements to enhance security, reliability, and user experience.',
+        description: 'Developing and maintaining enterprise web applications using Laravel, React, and RESTful APIs. Development of payroll management systems, attendance (GPS-based) tracking systems, and internal ERP solutions to streamline business operations. Designing secure authentication systems using Laravel Sanctum and role-based access control. Building responsive and dynamic front-end interfaces with React, integrating API services, and optimizing performance for scalability. Managing SQL databases, writing efficient queries, and implementing system improvements to enhance security, reliability, and user experience.',
       },
       {
         company: 'Freelance',
