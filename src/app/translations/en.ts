@@ -18,7 +18,7 @@ export const en = {
     name: "Billy Sistian P.",
     title: "Fullstack Developer",
     description:
-      "Open to new opportunities and collaborations. Let’s build something impactful together.",
+      "Open to new opportunities and collaborations. Let's build something impactful together.",
     project: "Projects",
     downloadCV: "Download CV",
   },
