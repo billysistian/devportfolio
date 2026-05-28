@@ -30,9 +30,9 @@ export const id = {
     yearsOfExperience: "Tahun Pengalaman",
     buildingApps: "Membangun aplikasi web",
     expertise: [
-      "Arsitektur Frontend",
-      "Pengembangan Backend",
-      "Desain Database",
+      "Pengembangan Antarmuka",
+      "Pengembangan Sistem",
+      "Perancangan Arsitektur Database",
       "Implementasi UI/UX",
     ],
   },
@@ -42,28 +42,6 @@ export const id = {
     sectionLabel: "Keahlian Saya",
     title: "Keahlian Teknis",
     description: "Ikhtisar fokus tentang profisiensi teknis dan toolset saya.",
-    categories: {
-      frontend: "Frontend",
-      backend: "Backend",
-      database: "Database",
-      tools: "Peralatan",
-    },
-    items: {
-      frontend: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "TypeScript",
-        "Bootstrap",
-        "Tailwind CSS",
-        "React",
-        "Next.js",
-        "Flutter",
-      ],
-      backend: ["PHP", "CodeIgniter", "Laravel", "Node.js"],
-      database: ["MySQL", "PostgreSQL", "Supabase", "Firebase", "MongoDB"],
-      tools: ["Git", "GitHub", "Postman", "VS Code", "Figma"],
-    },
   },
 
   // Projects Section
@@ -79,21 +57,21 @@ export const id = {
         description:
           "Sistem manajemen pasien komprehensif untuk rumah sakit yang mencakup fitur seperti penjadwalan janji, manajemen catatan pasien, dan manajemen antrian.",
         role: "Pengembang Fullstack",
-        tech: ["Laravel", "MySQL", "JavaScript", "VS Code", "Tailwind CSS"],
+        tech: ["PHP", "Laravel", "MySQL", "JavaScript", "Tailwind CSS", "VS Code"],
       },
       {
         title: "PresensiGo",
         description:
           "Aplikasi mobile untuk tim sales yang memungkinkan mereka mencatat kehadiran, kunjungan pelanggan, dan aktivitas harian dengan fitur berbasis lokasi dan pelaporan waktu nyata.",
         role: "Pengembang Mobile",
-        tech: ["Laravel", "MySQL", "VS Code", "Postman", "Flutter"],
+        tech: ["Flutter", "Android Studio", "Postman", "VS Code"],
       },
       {
         title: "HRIS",
         description:
           "Sistem informasi sumber daya manusia untuk manajemen karyawan, absensi, dan penggajian.",
         role: "Pengembang Fullstack",
-        tech: ["HTML", "Bootstrap", "Laravel", "MySQL", "VS Code"],
+        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "Laravel", "MySQL", "VS Code"],
       },
       {
         title: "Profil Perusahaan",
@@ -101,13 +79,12 @@ export const id = {
           "Situs web profil perusahaan modern dengan desain responsif, elemen interaktif, dan kinerja yang dioptimalkan.",
         role: "Pengembang Fullstack",
         tech: [
-          "HTML",
-          "Tailwind CSS",
           "Next.js",
           "JavaScript",
+          "Tailwind CSS",
           "Supabase",
-          "Postman",
           "VS Code",
+          "Postman",
         ],
       },
       {
@@ -116,9 +93,8 @@ export const id = {
           "Sistem manajemen konten untuk situs profil perusahaan yang memungkinkan admin mengelola konten dengan mudah melalui dashboard yang intuitif.",
         role: "Pengembang Fullstack",
         tech: [
-          "HTML",
-          "Tailwind CSS",
           "Next.js",
+          "JavaScript",
           "Supabase",
           "Shadcn UI",
           "VS Code",
@@ -127,9 +103,9 @@ export const id = {
       {
         title: "Sistem ERP untuk Manufaktur",
         description:
-          "Sistem manajemen sumber daya perusahaan lengkap untuk perusahaan manufaktur dengan manajemen inventaris, pelacakan produksi, dan fitur pelaporan.",
+          "Sistem ini dirancang untuk memantau dan mengotomatisasi proses bisnis inti perusahaan seperti keuangan, rantai pasokan, dan produksi dalam satu platform terpusat.",
         role: "Pengembang Full Stack",
-        tech: ["HTML", "Bootstrap", "CodeIgniter", "MySQL", "VS Code"],
+        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "CodeIgniter", "MySQL", "VS Code"],
       },
     ],
   },

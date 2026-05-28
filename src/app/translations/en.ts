@@ -32,9 +32,9 @@ export const en = {
     yearsOfExperience: "Years of Experience",
     buildingApps: "Building web applications",
     expertise: [
-      "Frontend Architecture",
+      "Frontend Development",
       "Backend Development",
-      "Database Design",
+      "Database Architecture",
       "UI/UX Implementation",
     ],
   },
@@ -44,28 +44,6 @@ export const en = {
     sectionLabel: "My Expertise",
     title: "Technical Skills",
     description: "A focused overview of my technical proficiency and toolset.",
-    categories: {
-      frontend: "Frontend",
-      backend: "Backend",
-      database: "Database",
-      tools: "Tools",
-    },
-    items: {
-      frontend: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "TypeScript",
-        "Bootstrap",
-        "Tailwind CSS",
-        "React",
-        "Next.js",
-        "Flutter",
-      ],
-      backend: ["PHP", "CodeIgniter", "Laravel", "Node.js"],
-      database: ["MySQL", "PostgreSQL", "Supabase", "Firebase", "MongoDB"],
-      tools: ["Git", "GitHub", "Postman", "VS Code", "Figma"],
-    },
   },
 
   // Projects Section
@@ -81,21 +59,21 @@ export const en = {
         description:
           "A comprehensive patient management system for hospitals that includes features such as appointment scheduling, patient records management, and queue management.",
         role: "Fullstack Developer",
-        tech: ["Laravel", "MySQL", "JavaScript", "VS Code", "Tailwind CSS"],
+        tech: ["PHP", "Laravel", "MySQL", "JavaScript", "Tailwind CSS", "VS Code"],
       },
       {
         title: "PresensiGo",
         description:
           "A mobile application for sales teams that allows them to log attendance, customer visits, and daily activities with location-based features and real-time reporting.",
         role: "Mobile Developer",
-        tech: ["Laravel", "MySQL", "VS Code", "Postman", "Flutter"],
+        tech: ["Flutter", "Android Studio", "Postman" , "VS Code"],
       },
       {
         title: "HRIS",
         description:
           "Human Resource Information System for managing employee data, attendance, and payroll.",
         role: "Fullstack Developer",
-        tech: ["HTML", "Bootstrap", "Laravel", "MySQL", "VS Code"],
+        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "Laravel", "MySQL", "VS Code"],
       },
       {
         title: "Company Profile",
@@ -103,10 +81,9 @@ export const en = {
           "A modern company profile website with responsive design, interactive elements, and optimized performance.",
         role: "Fullstack Developer",
         tech: [
-          "HTML",
-          "Tailwind CSS",
           "Next.js",
           "JavaScript",
+          "Tailwind CSS",
           "Supabase",
           "Postman",
           "VS Code",
@@ -118,9 +95,8 @@ export const en = {
           "Content management system for company profile websites that allows admins to easily manage content through an intuitive dashboard.",
         role: "Fullstack Developer",
         tech: [
-          "HTML",
-          "Tailwind CSS",
           "Next.js",
+          "JavaScript",
           "Supabase",
           "Shadcn UI",
           "VS Code",
@@ -129,9 +105,9 @@ export const en = {
       {
         title: "ERP System for Manufacturing",
         description:
-          "Complete enterprise resource planning system for manufacturing companies with inventory management, production tracking, and reporting features.",
+          "This system is designed to monitor and automate the company's core business processes such as finance, supply chain, and production within a centralized platform.",
         role: "Full Stack Developer",
-        tech: ["HTML", "Bootstrap", "CodeIgniter", "MySQL", "VS Code"],
+        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "CodeIgniter", "MySQL", "VS Code"],
       },
     ],
   },
